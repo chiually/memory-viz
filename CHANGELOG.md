@@ -11,6 +11,19 @@ and adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### ✨ Enhancements
 
+### 🐛 Bug fixes
+
+### 📚 Documentation and demo website changes
+
+### 🔧 Internal changes
+
+- Updated CI config to use Ubuntu v24.04, `pnpm/action-setup@v6`, and pass `--no-git-checks` to `pnpm publish`
+- Removed old access token from the GitHub Action for package publishing
+
+## [0.9.0] - 2026-05-23
+
+### ✨ Enhancements
+
 - Added the built in immutable Python types (complex, bytes, range) to the memory-viz immutable types
 - Added documentation and tests for the pre-existingly supported immutable Python type `datetime.date`
 - Added the built in immutable Python type `frozenset` to the memory-viz immutable, and sequence types
